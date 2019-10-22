@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--核心配置文件-->
+<mapper namespace="com.cp.dao.StudentMapper">
+
+
+    <!--按照结果嵌套处理-->
+    <select id="getStudentList2" resultMap="StudentTeacher2">
+        select s.id sid,s.name sname,t.id tid,t.name tname from student s,teacher t where s.tid = t.id;
+    </select>
+    <resultMap id="StudentTeacher2" type="com.cp.pojo.Student">
+        <result column="sid" property="id"/>
+        <result column="sname" property="name"/>
+        <association property="teacher" javaType="com.cp.pojo.Teacher">
+            <result column="tid" property="id"/>
+            <result column="tname" property="name"/>
+        </association>
+    </resultMap>
+
+    <!--子查询方式-->
+    <select id="getStudentList" resultMap="StudentTeacher">
+        select * from student
+    </select>
+    <resultMap id="StudentTeacher" type="com.cp.pojo.Student">
+        <association property="teacher" column="tid" javaType="com.cp.pojo.Teacher" select="getTeacher"/>
+    </resultMap>
+    <select id="getTeacher" resultType="com.cp.pojo.Teacher">
+        select * from teacher where id = #{tid}
+    </select>
+</mapper>
