@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca904988-3517-4b0f-bdf9-17d7902d9d53" name="Default Changelist" comment="" />
+    <list default="true" id="ca904988-3517-4b0f-bdf9-17d7902d9d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -49,35 +56,39 @@
     </option>
   </component>
   <component name="ProjectId" id="1SVFE4jBc4rsZLyqNpuPxXdV9Ay" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-06/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-07/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\resources" />
-      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\java\com\cp" />
-      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-05\src\main\resources\com\cp\dao" />
-      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-05\src\main\resources\com.cp.dao" />
-      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-05\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="com.cp.dao" />
-      <recent name="dao" />
-      <recent name="com.cp.pojo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\resources\com\cp\dao" />
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\resources\com.cp\dao" />
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-01\src\main\java\com\cp\dao" />
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-01\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cp.util" />
+      <recent name="" />
+      <recent name="com.cp.dao" />
+      <recent name="dao" />
+      <recent name="com.cp.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-07\src\main\resources" />
+      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\resources" />
+      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\java\com\cp" />
+      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-05\src\main\resources\com\cp\dao" />
+      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-05\src\main\resources\com.cp.dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTest (1)">
+  <component name="RunManager" selected="JUnit.MyTest.queryBlogByIF">
     <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="mybatis-06" />
@@ -107,49 +118,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.getUserByLimit (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-04" />
+    <configuration name="IDutils.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cp.dao.*" />
+          <option name="PATTERN" value="com.cp.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cp.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.cp.dao.UserMapperTest" />
-      <option name="METHOD_NAME" value="getUserByLimit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.getUserByLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cp.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cp.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.cp.dao.UserMapperTest" />
-      <option name="METHOD_NAME" value="getUserByLimit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cp.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cp.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.cp.dao.UserMapperTest" />
+      <option name="PACKAGE_NAME" value="com.cp.util" />
+      <option name="MAIN_CLASS_NAME" value="com.cp.util.IDutils" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.queryBlogByIF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="queryBlogByIF" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.queryBlogByIF" />
+        <item itemvalue="JUnit.MyTest.insert" />
+        <item itemvalue="JUnit.IDutils.test" />
         <item itemvalue="Application.MyTest (1)" />
         <item itemvalue="Application.MyTest" />
-        <item itemvalue="JUnit.UserMapperTest.test (1)" />
-        <item itemvalue="JUnit.UserMapperTest.getUserByLimit (1)" />
-        <item itemvalue="JUnit.UserMapperTest.getUserByLimit" />
       </list>
     </recent_temporary>
   </component>
@@ -177,11 +176,25 @@
       <updated>1571640740536</updated>
       <workItem from="1571640744206" duration="13098000" />
       <workItem from="1571705098862" duration="7292000" />
-      <workItem from="1571726955111" duration="7151000" />
+      <workItem from="1571726955111" duration="7793000" />
+      <workItem from="1571796310862" duration="2691000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
