@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca904988-3517-4b0f-bdf9-17d7902d9d53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/target/test-classes/MyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,42 +107,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.queryBlogByIF">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="mybatis-06" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="mybatis-05" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IDutils.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cp.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cp.util" />
-      <option name="MAIN_CLASS_NAME" value="com.cp.util.IDutils" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyTest.queryBlogForeach">
     <configuration name="MyTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-07" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.queryBlogByChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="queryBlogByChoose" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,13 +138,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.queryBlogForeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="queryBlogForeach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.updateBlog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="updateBlog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.queryBlogForeach" />
         <item itemvalue="JUnit.MyTest.queryBlogByIF" />
+        <item itemvalue="JUnit.MyTest.updateBlog" />
+        <item itemvalue="JUnit.MyTest.queryBlogByChoose" />
         <item itemvalue="JUnit.MyTest.insert" />
-        <item itemvalue="JUnit.IDutils.test" />
-        <item itemvalue="Application.MyTest (1)" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +181,7 @@
       <workItem from="1571640744206" duration="13098000" />
       <workItem from="1571705098862" duration="7292000" />
       <workItem from="1571726955111" duration="7793000" />
-      <workItem from="1571796310862" duration="2691000" />
+      <workItem from="1571796310862" duration="6606000" />
     </task>
     <servers />
   </component>

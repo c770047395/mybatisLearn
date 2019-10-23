@@ -9,14 +9,59 @@
         values(#{id},#{title},#{author},#{createTime},#{views})
     </insert>
 
-    <select id="queryBlogIF" parameterType="map" resultType="com.cp.pojo.Blog">
-        select * from blog where 1=1
+    <sql id="if-title-author">
         <if test="title != null">
-            and title = #{title}
+            title = #{title}
         </if>
         <if test="author != null">
             and author = #{author}
         </if>
+    </sql>
+    
+    <select id="queryBlogIF" parameterType="map" resultType="com.cp.pojo.Blog">
+        select * from blog
+        <where>
+            <include refid="if-title-author"/>
+        </where>
+    </select>
+    
+    <select id="queryBlogChoose" parameterType="map" resultType="com.cp.pojo.Blog">
+        select * from blog
+        <where>
+            <choose>
+                <when test="title != null">
+                    title = #{title}
+                </when>
+                <when test="author != null">
+                    and author = #{author}
+                </when>
+                <otherwise>
+                    and views = #{views}
+                </otherwise>
+            </choose>
+        </where>
+    </select>
 
+    <update id="updateBlog" parameterType="map">
+        update blog
+        <set>
+            <if test="title != null">
+                title = #{title},
+            </if>
+            <if test="author != null">
+                author = #{author}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+    
+    <select id="queryBlogForeach" parameterType="map" resultType="com.cp.pojo.Blog">
+        select * from blog
+        <where>
+            id in
+            <foreach collection="ids" item="id" open="(" separator="," close=")">
+               #{id}
+            </foreach>
+        </where>
     </select>
 </mapper>
