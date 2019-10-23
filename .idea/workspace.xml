@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca904988-3517-4b0f-bdf9-17d7902d9d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/cp/dao/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/target/classes/com/cp/dao/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,7 +63,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-07/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-08/src/main/java/com/cp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -81,18 +77,18 @@
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-01\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cp.util" />
       <recent name="" />
+      <recent name="com.cp.util" />
       <recent name="com.cp.dao" />
       <recent name="dao" />
       <recent name="com.cp.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-08\src\main\java\com\cp" />
+      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-08\src\main\resources" />
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-07\src\main\resources" />
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\resources" />
       <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-06\src\main\java\com\cp" />
-      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-05\src\main\resources\com\cp\dao" />
-      <recent name="C:\Users\Administrator\IdeaProjects\mybatis-study\mybatis-05\src\main\resources\com.cp.dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,9 +103,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.queryBlogForeach">
-    <configuration name="MyTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
+  <component name="RunManager" selected="JUnit.MyTest.queryUserById">
+    <configuration name="MyTest.insert (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="insert" />
@@ -118,11 +114,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.queryBlogByChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
+    <configuration name="MyTest.queryBlogByIF (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="queryBlogByChoose" />
+      <option name="METHOD_NAME" value="queryBlogByIF" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +144,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.updateBlog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
+    <configuration name="MyTest.queryUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="updateBlog" />
+      <option name="METHOD_NAME" value="queryUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.queryUserById" />
+        <item itemvalue="JUnit.MyTest.queryBlogByIF (1)" />
+        <item itemvalue="JUnit.MyTest.insert (1)" />
         <item itemvalue="JUnit.MyTest.queryBlogForeach" />
         <item itemvalue="JUnit.MyTest.queryBlogByIF" />
-        <item itemvalue="JUnit.MyTest.updateBlog" />
-        <item itemvalue="JUnit.MyTest.queryBlogByChoose" />
-        <item itemvalue="JUnit.MyTest.insert" />
       </list>
     </recent_temporary>
   </component>

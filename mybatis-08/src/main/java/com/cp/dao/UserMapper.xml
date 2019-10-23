@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--核心配置文件-->
+<mapper namespace="com.cp.dao.UserMapper">
+    <cache type="org.mybatis.caches.ehcache"/>
+    <select id="queryUserById" resultType="com.cp.pojo.User">
+        select * from user where id = #{id}
+    </select>
+    <update id="updateUser" parameterType="com.cp.pojo.User">
+        update user set name = #{name}, pwd = #{pwd} where id = #{id}
+    </update>
+</mapper>
